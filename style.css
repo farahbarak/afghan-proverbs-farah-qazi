@@ -21,7 +21,10 @@ align-items: center;
 nav{
     display:flex;
     gap:1rem;
-    
+    curser:pointer
+}
+nav :hover{
+background-color:#000
 }
 nav a{
     color:#fefefb;
@@ -134,7 +137,7 @@ nav a{
     flex-wrap: wrap;
     margin-left:500px;
     margin-top:50px ;
-    margin-bottom :50px;
+    margin-bottom:50px;
     background-color:#ffffff;
 
     
