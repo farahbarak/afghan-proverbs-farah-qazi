@@ -1,0 +1,1 @@
+# afghan-proverbs-farah-qazi
