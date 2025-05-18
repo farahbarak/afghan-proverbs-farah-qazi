@@ -1,0 +1,273 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    
+}
+body{
+ 
+    display:grid;
+    background-color: #ffffff;
+}
+header{
+display:flex;
+background-color: #b40505fd;
+padding:1rem;
+justify-content: space-between;
+align-items: center;
+
+}
+ 
+nav{
+    display:flex;
+    gap:1rem;
+    
+}
+nav a{
+    color:#fefefb;
+    text-decoration: none;
+    font-weight: bold;
+}
+.text{
+    display:grid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f9fffc;
+    text-align: center;
+    padding: 25px;
+    margin:5px;
+ 
+}
+ 
+.hero{
+    display:grid;
+    flex-wrap: wrap;
+    justify-content:stretch;
+    align-items: stretch;
+    padding:2rem;
+    background-color:#ffffff;
+    margin:0%;
+    padding: 0%;
+}
+
+ 
+.proverbsoftheday card {
+    background-color: rgb(242, 221, 221);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    padding: 25px;
+    
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    margin: 0;
+    font-size:14px;
+}
+
+.card-description {
+    color: #555;
+}
+
+.button{
+    flex-direction: row;
+    background-color:rgb(255, 255, 255);
+    border:none;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size:20px;
+    cursor: pointer;
+
+}
+ .search-container {
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    width:280px;
+    margin-left:500px;
+
+}
+
+.search-box {
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 15px;
+    margin-left:200px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1d839a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #ec5e5e;
+}
+
+.gallary{
+    font-family: Arial, sans-serif;
+    justify-content:space-between;
+    align-items:center;
+    max-width: 300px;
+    box-sizing: border-box;
+    display:grid;
+    flex-wrap: wrap;
+    margin-left:500px;
+    margin-top:50px ;
+    margin-bottom :50px;
+    background-color:#ffffff;
+
+    
+}
+.ineractivewall-button button{
+ padding: 10px 15px;
+    margin-left:200px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cd0c0c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.card {
+    background-color: rgb(242, 221, 221);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card-description {
+    color: #555;
+}
+
+
+
+input[type=text],select,textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid #b7aae3;
+border-radius: 4px;
+resize: vertical;
+}
+label{
+padding: 12px 12px 12px 5px;
+display:grid;
+}
+input[type=submit] {
+background-color: #1d839a;
+color: rgb(247, 247, 247);
+padding: 12px 20px;
+border:none;
+border-radius: 4px;
+cursor: pointer;
+float:center;
+}
+input[type=submit]:hover{
+background-color: rgba(0, 31, 31, 0.252);
+
+}
+.container{
+border-radius: 5px;
+background-color: #ffffff;
+padding: 20px;
+justify-content: center;
+}
+.col-1{
+float:;
+width: 75%;
+margin-top: 6px;
+}
+.col-2{
+float:;
+width: 75%;
+margin-top: 6px;
+}
+.row::after{
+content: "";
+display: table;
+clear: both;
+}
+
+
+ 
+
+.contact h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#ffffff;
+    color: rgb(176, 18, 18);
+
+}
+ 
+
+.footer follow h2{
+    display: flex;
+    justify-content:left;
+    align-items:left;
+    flex-wrap: wrap;
+    background-color:#ffffff;
+    color: rgb(176, 18, 18);
+    margin-right: 50px;
+
+}
+ 
+.details card{
+    display: grid;
+    background-color: rgb(242, 221, 221);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+
+}
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:left;
+    flex-wrap: wrap;
+    padding:1rem;
+    background-color: #b40505fd;
+    color:white;
+}
+footer p{
+    margin:0.5rem 0;
+
+
+}
